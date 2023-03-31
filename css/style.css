@@ -1,0 +1,213 @@
+body {
+    background-image: url("../img/bg.jpg");
+    margin: 0px;
+    font-family: 'Lato' !important;
+}
+
+header {
+    font-size: 16px;
+    padding-left: 0px;
+    display: inline;
+    width: 100%;
+    background-color: #083d77 !important;
+}
+
+#nav_bar {
+    font-size: 18px;
+    color: #fefcfb;
+    height: 100px;
+    background-color: #083d77 !important;
+}
+
+#nav_content {
+    width: 1100px;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+}
+
+#logo {
+    display: inline;
+    margin-left: 0;
+    width: 100px;
+    padding: 17.5px;
+    float: left;
+}
+
+#navigation {
+    display: flex;
+    float: right;
+    height: 100px;
+    align-items: center;
+}
+
+ul#navigation {
+    margin: 0;
+}
+
+.nav_bar_item {
+    padding: 10px;
+}
+
+.nav_bar_item,
+a:visited {
+    color: #fefcfb;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fefcfb;
+}
+
+#page_body {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#skola_img {
+    width: 1100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#block_sections {
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    width: 100%;
+}
+
+aside {
+    background-color: #083d77;
+    margin: 0px !important;
+    width: 30%;
+    height: 260px;
+}
+
+aside h3
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+aside ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+aside ul li
+{
+    margin-bottom: 15px;
+    color: white;
+}
+
+#obavijesti {
+    background-color: #fefcfb;
+    width: 65%;
+    margin-left: 10px;
+    padding: 20px;
+}
+#title_obavijesti
+{
+    font-size: 20px;
+    color: #c1b2ab;
+    padding-bottom: 20px;
+}
+
+.obavijest {
+    color:#083d77;
+    margin-bottom: 40px !important;
+}
+
+.obavijest span {
+    background-color: #083d77;
+    color: white;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: #c1b2ab;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.extra_padding_div
+{
+    padding: 10px;
+    width: 1080px;
+    background-color: #fefcfb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main_div
+{
+    font-family: 'Lato' !important;
+    width: 1100px;
+    background-color: transparent;
+    margin: auto;
+}
+.okvir_div{
+    width: 1100px;
+    background-color: #fefcfb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#stud_prog_lista li
+{
+    padding: 5px;
+}
+#nastavnici_tab
+{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: #c1b2ab 1px solid;
+
+}
+#nastavnici_tab thead
+{
+    background-color: #083D77;
+    color: white;
+}
+
+th, td{
+    padding: 15px!important;
+    text-align: center;
+}
+
+#nastavnici_tab tbody tr td
+{
+    border: #c1b2ab 1px solid;
+}
+#okvir_forme
+{
+    width: 1100px;
+    background-color: white;
+}
+input, textarea
+{
+    width: 1055px;
+    padding: 10px;
+    border: #B8B8B8 2px solid;
+    border-radius: 5px;
+} 
+textarea{
+    resize: vertical;
+}
+#submit_btn
+{
+    background-color: #083D77;
+    color: #fefcfb;
+    width: 1080px;
+}
